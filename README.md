@@ -3,7 +3,7 @@
 Para lanzar en ros noetic este paquete se utilizan los siguientes comandos dentro del workspace:
 
 	source devel/setup.bash
-	roslaunch robot_model_pkg robot_xacor.launch
+	roslaunch robot_model robot_xacro.launch
 
 Esto lanzará el roscore con la simulación en gazebo y el diseño del robot. En otra terminal escribimos:
 
